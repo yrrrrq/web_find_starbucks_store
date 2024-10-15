@@ -1,0 +1,41 @@
+/* 设置背景 */
+body {
+    background-color: rgba(248, 255, 251, 0.853);
+}
+
+/* 设置导航栏 */
+nav {
+    background-color: rgb(36, 121, 56);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li {float: left;}
+nav li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color:rgb(57, 186, 87);
+    color: black;
+}
+
+/* 设置地图边框*/
+.container-background {
+    border: 10px double rgb(36, 121, 56);
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
