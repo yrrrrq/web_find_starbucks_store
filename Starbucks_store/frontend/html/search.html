@@ -1,0 +1,39 @@
+<!-- 第三个页面：查询店铺页面的实现 -->
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <title>查找店铺</title>
+        <script src="https://webapi.amap.com/maps?v=1.4.15&key=e212b7cddb63ad332805e3fc75ac3fa8"></script>
+        <link rel="stylesheet" type="text/css" href="../css/search.css">
+        <style>
+            #container {
+                text-align: center;
+                width: 90%;
+                height: 600px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="./about.html">关于星巴克</a></li>
+                    <li><a href="./search.html">查找店铺</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p id="message"></p>
+            <p id="latitude"></p>
+            <p id="longitude"></p>
+        </main>
+        <div class="container-background">
+            <div id="container"></div>
+            <!-- 引入Goole Maps API --> 
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="../js/search.js"></script>
+            <!-- 初始化地图 -->
+        </div>
+    </body>
+</html>

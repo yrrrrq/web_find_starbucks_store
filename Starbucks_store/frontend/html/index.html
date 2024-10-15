@@ -1,0 +1,71 @@
+<!-- 首页功能实现 -->
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <title>星巴克寻店通</title>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="./about.html">关于星巴克</a></li>
+                    <li><a href="./search.html">查找店铺</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="title">
+                <br>
+                <h1 align="center" style="color:#ffffff">欢迎来到星巴克寻店通</h1>
+                <h3 align="center" style="color:#ffffff">星巴克在传承经典咖啡文化的同时，关爱伙伴，为顾客提供不同的星巴克体验.</h3>
+                <br>
+            </div>
+            <br>
+            <br>
+            <div class="container-background">
+                <br>
+                <br>
+                <div class="container">
+                    <div id="login-form" class="form-container">
+                        <h2>登录</h2>
+                        <form id="loginForm">
+                            <div class="form-group">
+                                <label for="login-username">用户名：</label>
+                                <input type="text" id="login-username" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="login-password">密码：</label>
+                                <input type="password" id="login-password" name="password" required>
+                            </div>
+                            <button type="submit">登录</button>
+                        </form> 
+                        <p>没有账号？请<a href="#registerForm" id="show-register" style="color:rgb(36, 121, 56)">注册</a></p>
+                    </div>
+
+                    <div id="register-form" class="form-container" style="display:none;">
+                        <h2>注册</h2>
+                        <form id="registerForm">
+                            <div class="form-group">
+                                <label for="register-username">用户名：</label>
+                                <input type="text" id="register-username" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="register-password">密码：</label>
+                                <input type="password" id="register-password" name="password" required>
+                            </div>
+                            <button type="submit">注册</button>
+                        </form>
+                        <p>已有账号？请<a href="#" id="show-login" style="color:rgb(36, 121, 56)">登录</a></p>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+            
+        </main>
+        <script src="../js/login_register.js"></script>
+    </body>
+</html>
