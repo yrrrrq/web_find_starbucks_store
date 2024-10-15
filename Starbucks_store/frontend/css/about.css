@@ -1,0 +1,114 @@
+/* 设置背景 */
+body {
+    background-color: rgba(248, 255, 251, 0.853);
+}
+
+/* 设置导航栏 */
+nav {
+    background-color: rgb(36, 121, 56);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li {float: left;}
+nav li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color:rgb(57, 186, 87);
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(36, 121, 56);
+}
+h3 {
+    text-align: center;
+    color:rgb(46, 155, 71);
+}
+
+/* 表格样式*/
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('../src/表格背景.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.styled-table thead tr {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.557);
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: none;
+    text-align: center;
+}
+
+colgroup col {
+    width:33.33%;
+}
+
+.styled-table tbody tr {
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f193;
+    color: black;
+}
+
+/* 表格单元格中的段落和加粗文本样式 */
+.styled-table p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.styled-table p strong {
+    display: block;
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* 设置文本边框*/
+.about-background {
+    border: 2px dashed rgb(36, 121, 56);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* 设置h3标题样式*/
+.h3-container {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 1px;
+}
